@@ -25,10 +25,12 @@
     justify-content: center;
     text-align: justify;
     width: 90vw;
+    padding: 5px;
 }
 
 .titulo-header {
     margin: 10px;
+    padding: 5px;
 }
 
 #border-radius {
@@ -38,6 +40,7 @@
     width: 100%;
     height: 45%;
     border-radius: 100px;
+    padding: 5px;
 }
 
 .border-input {
@@ -47,6 +50,7 @@
     border: 0;
     border-radius: 5%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5px;
 }
 
 .input-container {
@@ -57,23 +61,27 @@
     max-width: 100vw;
     width: 97%;
     height: 10%;
+    padding: 5px;
 }
 
 label {
     text-transform: uppercase;
     font-weight: bold;
     margin-left: 10px;
+    padding: 5px;
 }
 
 footer a {
     text-decoration: none;
     color: #222;
+    padding: 5px;
 }
 
 @media only screen and (max-width: 740px) {
 
     .titulo-header {
         font-size: 1.5rem;
+        padding: 5px;
     }
 
     #border-radius {
@@ -82,6 +90,7 @@ footer a {
         width: 75%;
         height: 30%;
         border-radius: 100px;
+        padding: 5px;
     }
 
     .input-container {
@@ -92,6 +101,7 @@ footer a {
         max-width: 100vw;
         width: 90%;
         height: 45%;
+        padding: 5px;
     }
 
     .border-input {
@@ -100,11 +110,13 @@ footer a {
         height: 15%;
         text-align: center;
         border-radius: 3%;
+        padding: 5px;
     }
 
     label {
         margin-top: 10px;
         margin-bottom: 5px;
+        padding: 5px;
     }
     
   }
